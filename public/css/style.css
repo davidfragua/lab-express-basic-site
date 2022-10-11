@@ -4,26 +4,27 @@ body {
 }
 
 .header {
-
-    width: 600px;
-    height: 250px;
+  /* margin-left: 300px;  */
+  margin-top: 30px;
+  justify-content: center;
+  width: 600px;
+  height: 250px;
 }
+
 
 .menu {
   color: black;
-  /* margin: 20px 0px 0px 140px ; */
-  text-align: center;
+
+
+  
 }
 
 .header img {
   display: flex;
+  border: 2px solid black;
+  border-radius: 20%;
   align-items: center;
   margin-left: 180px;
-  /* position: relative; */
-  /* width: 300px;
-  height: 150px; */
-  /* background-image: url("/images/fight.jpg");
-    background-position: center; */
 }
 
 .header h1 {
@@ -34,17 +35,18 @@ body {
 
 .menu:hover {
   color: yellow;
+  
 }
 
 .menu a {
-  margin: 10px;
+   color: black;
+  margin: 300px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
-  text-decoration: underline;
+ 
+
   color: black;
   text-align: center;
-  /* 
-  
-  background-size: 200; */
 }
