@@ -1,0 +1,50 @@
+body {
+  background: orange;
+  margin: 0;
+}
+
+.header {
+
+    width: 600px;
+    height: 250px;
+}
+
+.menu {
+  color: black;
+  /* margin: 20px 0px 0px 140px ; */
+  text-align: center;
+}
+
+.header img {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+  /* position: relative; */
+  /* width: 300px;
+  height: 150px; */
+  /* background-image: url("/images/fight.jpg");
+    background-position: center; */
+}
+
+.header h1 {
+  position: relative;
+  bottom: 240px;
+  left: 80px;
+}
+
+.menu:hover {
+  color: yellow;
+}
+
+.menu a {
+  margin: 10px;
+}
+
+h1 {
+  text-decoration: underline;
+  color: black;
+  text-align: center;
+  /* 
+  
+  background-size: 200; */
+}
